@@ -12,7 +12,7 @@ def fetch_data(api_url: str, limit: int):
     raw_dir.mkdir(parents=True, exist_ok=True)
     output_file = raw_dir / f"drugsfda_{timestamp}.json"
 
-    params = {}
+    params = {"limit": limit}
 
     try:
         print(f"Fetching data from {api_url}")
