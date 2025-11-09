@@ -1,7 +1,12 @@
 from transform import transform_raw_data, save_processed_data
 from pathlib import Path
+from src.db import init_db
+import models.product
 
 def main():
+
+    init_db()
+
     raw_dir = Path(__file__).parent / "data" / "raw"
     raw_file = raw_dir / "drugsfda_08112025153540.json"
 
