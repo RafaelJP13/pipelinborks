@@ -15,13 +15,32 @@ def transform_raw_data(raw_file_path: Path):
         sponsor_name = item.get("sponsor_name")
 
         products = item.get("products", [])
-        product_name = products[0].get("brand_name") if products else None
 
-        cleaned_raw_data.append({
-            "sponsor_name": sponsor_name,
-            "product_name": product_name,
+        for product in products:
+            product_name = product.get("brand_name", None)
 
-        })
+            active_ingredients = product.get("active_ingredients", [])
+
+            ingredients_list = []
+
+            for ingredient in active_ingredients:
+
+                    ingredient_name = ingredient.get("name", None)
+                    ingredient_strength = ingredient.get("strength", None)
+
+                    ingredients_list.append({
+
+                        "name": ingredient_name,
+                        "strength": ingredient_strength,
+
+                    })
+
+            cleaned_raw_data.append({
+                "sponsor_name": sponsor_name,
+                "product_name": product_name,
+                "ingredients": ingredients_list,
+
+            })
 
     return cleaned_raw_data
 
