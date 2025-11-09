@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2025-11-07",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 28630
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20200914",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA211211",
+      "sponsor_name": "FRESENIUS KABI USA",
+      "openfda": {
+        "application_number": [
+          "ANDA211211"
+        ],
+        "brand_name": [
+          "DEXTROSE AND SODIUM CHLORIDE"
+        ],
+        "generic_name": [
+          "DEXTROSE MONOHYDRATE AND SODIUM CHLORIDE"
+        ],
+        "manufacturer_name": [
+          "Fresenius Kabi USA, LLC",
+          "BECTON DICKINSON AND COMPANY"
+        ],
+        "product_ndc": [
+          "63323-870",
+          "17271-735"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "DEXTROSE MONOHYDRATE",
+          "SODIUM CHLORIDE"
+        ],
+        "rxcui": [
+          "1795344",
+          "1795346"
+        ],
+        "spl_id": [
+          "449bf5b8-ff7c-4d79-a1d2-03886440257d",
+          "69075560-be94-4804-ab7b-d8ebce41739a"
+        ],
+        "spl_set_id": [
+          "68cc9c41-ed24-4f76-8efb-2936ae3ddd8d",
+          "c1d0f42e-3494-4217-8f86-e9f34d930e82"
+        ],
+        "package_ndc": [
+          "63323-870-01",
+          "63323-870-10",
+          "63323-870-04",
+          "63323-870-74",
+          "17271-735-06",
+          "17271-735-07"
+        ],
+        "unii": [
+          "LX22YL083G",
+          "451W47IQ8X"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "DEXTROSE 5% AND SODIUM CHLORIDE 0.9%",
+          "active_ingredients": [
+            {
+              "name": "DEXTROSE",
+              "strength": "5GM/100ML"
+            },
+            {
+              "name": "SODIUM CHLORIDE",
+              "strength": "900MG/100ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "INJECTABLE",
+          "route": "INJECTION",
+          "marketing_status": "Prescription",
+          "te_code": "AP"
+        }
+      ]
+    }
+  ]
+}
