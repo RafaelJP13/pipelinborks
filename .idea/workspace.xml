@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc65a76b-4f7e-43b6-8628-5f2d3c0fdc4a" name="Changes" comment="feat: Extract and save raw data.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
         <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
@@ -147,7 +147,8 @@
       <workItem from="1762206959665" duration="360000" />
       <workItem from="1762251039913" duration="4818000" />
       <workItem from="1762562285457" duration="14417000" />
-      <workItem from="1762719803324" duration="54000" />
+      <workItem from="1762719803324" duration="153000" />
+      <workItem from="1762884928748" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Extract and save raw data.">
       <option name="closed" value="true" />
