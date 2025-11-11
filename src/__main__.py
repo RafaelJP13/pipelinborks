@@ -2,10 +2,12 @@ from transform import transform_raw_data, save_processed_data
 from pathlib import Path
 from src.db import init_db
 import models.product
+from src.extract import fetch_data
 
 def main():
 
     init_db()
+    fetch_data("https://api.fda.gov/drug/drugsfda.json", 100)
 
     raw_dir = Path(__file__).parent / "data" / "raw"
 
@@ -22,8 +24,10 @@ def main():
         print("No raw data found")
         return
 
+    timestamp_raw_data = newest_filename.stem.replace("drugsfda_", "")
     cleaned_data = transform_raw_data(raw_file)
-    save_processed_data(cleaned_data, "processed_drugsfda_08112025153540.json")
+    output_filename = f"processed_drugsfda_{timestamp_raw_data}.json"
+    save_processed_data(cleaned_data, output_filename)
 
 if __name__ == "__main__":
     main()
