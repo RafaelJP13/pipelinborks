@@ -24,8 +24,8 @@ def main():
         print("No raw data found")
         return
 
-    timestamp_raw_data = newest_filename.stem.replace("drugsfda_", "")
     cleaned_data = transform_raw_data(raw_file)
+    timestamp_raw_data = newest_filename.stem.replace("drugsfda_", "")
     output_filename = f"processed_drugsfda_{timestamp_raw_data}.json"
     save_processed_data(cleaned_data, output_filename)
 
