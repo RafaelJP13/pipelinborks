@@ -5,43 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc65a76b-4f7e-43b6-8628-5f2d3c0fdc4a" name="Changes" comment="feat: Extract and save raw data.">
-      <change afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/test_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_08112025153540.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025155116.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025155156.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025170511.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025170548.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025170631.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025171241.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025171449.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025171657.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025171733.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025171848.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025172016.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025172130.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_11112025172250.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_07112025214438.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_07112025214830.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_07112025214946.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_07112025215115.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_08112025153540.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025155116.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025155156.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025170511.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025170548.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025170631.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025171241.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025171449.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025171657.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025171733.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025171848.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025172016.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025172130.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_11112025172250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +77,7 @@
       <recent name="C:\Users\rafae\PycharmProjects\pipelinborks\.venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafae\PycharmProjects\pipelinborks" />
       <recent name="C:\Users\rafae\PycharmProjects\pipelinborks\src\models" />
       <recent name="C:\Users\rafae\PycharmProjects\pipelinborks\src" />
       <recent name="C:\Users\rafae\PycharmProjects\pipelinborks\src\db" />
