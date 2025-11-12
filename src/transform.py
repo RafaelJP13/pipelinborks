@@ -25,8 +25,8 @@ def transform_raw_data(raw_file_path: Path):
 
             for ingredient in active_ingredients:
 
-                    ingredient_name = ingredient.get("name", None)
-                    ingredient_strength = ingredient.get("strength", None)
+                    ingredient_name = ingredient.get("name", 'Unknown')
+                    ingredient_strength = ingredient.get("strength", 0)
 
                     ingredients_list.append({
 
