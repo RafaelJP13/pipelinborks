@@ -3,11 +3,18 @@ from pathlib import Path
 from src.db import init_db
 from src.extract import fetch_data
 from src.load import load_processed_data
+import os
+from dotenv import load_dotenv
+from pathlib import Path
+
+env_path = Path(__file__).resolve().parents[1] / '.env'
+load_dotenv(env_path)
 
 def main():
 
     init_db()
-    fetch_data("https://api.fda.gov/drug/drugsfda.json", 100)
+    api_base_url = os.getenv("API_BASE_URL")
+    fetch_data(api_base_url, 1000)
 
     base_dir = Path(__file__).parent
     raw_dir = base_dir / "data" / "raw"
