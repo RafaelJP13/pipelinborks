@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc65a76b-4f7e-43b6-8628-5f2d3c0fdc4a" name="Changes" comment="feat: Extract and save raw data.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/processed/processed_drugsfda_12112025100740.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/raw/drugsfda_12112025100740.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/test_db.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
