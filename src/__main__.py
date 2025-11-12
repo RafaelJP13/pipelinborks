@@ -1,5 +1,4 @@
 from transform import transform_raw_data, save_processed_data
-from pathlib import Path
 from src.db import init_db
 from src.extract import fetch_data
 from src.load import load_processed_data
@@ -19,6 +18,7 @@ def main():
     base_dir = Path(__file__).parent
     raw_dir = base_dir / "data" / "raw"
     processed_dir = base_dir / "data" / "processed"
+
     json_files = list(raw_dir.glob("*.json"))
 
     if not json_files:
