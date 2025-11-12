@@ -29,8 +29,6 @@ def init_db():
 
     Base.metadata.create_all(bind=engine)
 
-from contextlib import contextmanager
-
 @contextmanager
 def get_session():
     session = SessionLocal()
