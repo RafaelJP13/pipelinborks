@@ -3,12 +3,12 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-def fetch_data(api_url: str, limit: int):
+def fetch_data(api_url: str, limit: int, output_dir: Path | None = None):
     """Fetches data from API and saves it in a JSON file"""
 
     timestamp = datetime.now().strftime("%d%m%Y%H%M%S")
 
-    raw_dir = Path(__file__).parent / "data" / "raw"
+    raw_dir = output_dir or (Path(__file__).parent / "data" / "raw")
     raw_dir.mkdir(parents=True, exist_ok=True)
     output_file = raw_dir / f"drugsfda_{timestamp}.json"
 
