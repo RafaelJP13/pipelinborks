@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from src.db import get_session
-from src.models.product import Product
+from src.models.medicament import Product
 
 def load_processed_data(processed_file: Path):
 
@@ -29,6 +29,7 @@ def load_processed_data(processed_file: Path):
                     product_name = item.get("product_name"),
                     ingredient_name = ing.get("name"),
                     ingredient_strength = ing.get('strength'),
+                    api = 'OpenFDA'
                 )
 
                 session.add(product)
