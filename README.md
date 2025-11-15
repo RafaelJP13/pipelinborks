@@ -1,3 +1,8 @@
-This system implements a structured ETL (Extract–Transform–Load) pipeline that retrieves regulatory drug data from the FDA’s public API, stores the raw responses for auditability, transforms and standardizes the information into a clean and consistent schema, and finally loads the processed data into a MySQL database.
+# Drug Data ETL Pipeline (OpenFDA + ANVISA → MySQL)
 
-The pipeline automates data ingestion, enforces data quality through transformation steps, maintains a historical raw data layer, and delivers a curated dataset optimized for querying, reporting, and downstream analytical workflows.
+This project implements a structured ETL (Extract–Transform–Load) pipeline that retrieves regulatory drug data from two major public sources:
+
+- **OpenFDA (USA)**
+- **ANVISA — Brazilian Registered Medicines Dataset**
+
+The system stores raw API responses for auditability, transforms and standardizes the information into a consistent schema, and loads the processed data into a MySQL database for analytics, reporting, and downstream applications.
