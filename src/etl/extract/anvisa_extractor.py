@@ -3,6 +3,9 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 from datetime import datetime
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 env_path = Path(__file__).resolve().parents[3] / '.env'
 load_dotenv(env_path)
@@ -14,7 +17,11 @@ def download_anvisa_csv():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     print(f'Downloading {url_anvisa_csv}')
-    resp = requests.get(url_anvisa_csv, verify=False)
+
+    resp = requests.get(
+        url_anvisa_csv,
+        verify=False
+    )
     resp.raise_for_status()
 
     with open(output_path / f'anvisa.{timestamp}.csv', 'wb') as f:
